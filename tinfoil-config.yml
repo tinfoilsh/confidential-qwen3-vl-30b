@@ -11,7 +11,7 @@ models:
     mpk: "c541d7f6ead69534a5aba5b2dfa915d7fe2a33c30f822d84a8520c061029d109_62153220096_3a0557a4-5e57-5734-a7d7-55ad5c50102c"
   
 containers:
-  - name: "qwen3-vl-30b-instruct"
+  - name: "qwen3-vl-30b"
     image: ""
     args: [
       "--runtime", "nvidia",
