@@ -17,7 +17,7 @@ containers:
       "--runtime", "nvidia",
       "--gpus", "all",
       "--ipc", "host",
-      "vllm/vllm-openai:v0.11.0@sha256:014a95f21c9edf6abe0aea6b07353f96baa4ec291c427bb1176dc7c93a85845c",
+      "vllm/vllm-openai:v0.11.2@sha256:2c908d5a84ed251b6a17d179f42d06df1aff353007779ac5eecd8a0ea3fe9331",
       "--model", "/tinfoil/mpk/mpk-c541d7f6ead69534a5aba5b2dfa915d7fe2a33c30f822d84a8520c061029d109",
       "--served-model-name", "qwen3-vl-30b",
       "--limit-mm-per-prompt.video", "0",
@@ -33,3 +33,4 @@ shim:
   paths:
     - /v1/chat/completions
     - /metrics
+    - /health
